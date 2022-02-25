@@ -11,6 +11,8 @@ while run_program == True:
     user_choice = input('>>> ')
     if user_choice == '1':
         print('1')
+    if user_choice == '2':
+        print('2')
     elif user_choice == 'q':
         run_program = False
         print(f'До следующей встречи, {name}!') 
